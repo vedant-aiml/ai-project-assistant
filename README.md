@@ -50,17 +50,17 @@ app/
 ├── assets/                # Stored/generated images
 │
 ├── routes/
-│ ├── projects.py
-│ ├── chat.py
-│ ├── images.py
-│ ├── agent.py
+│   ├── projects.py
+│   ├── chat.py
+│   ├── images.py
+│   ├── agent.py
 │
 ├── services/
-│ ├── claude.py
-│ ├── gemini.py
-│ ├── memory.py
-│ ├── image.py
-│ ├── agent.py
+│   ├── claude.py
+│   ├── gemini.py
+│   ├── memory.py
+│   ├── image.py
+│   ├── agent.py
 
 ---
 
