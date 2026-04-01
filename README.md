@@ -43,24 +43,29 @@ This project is designed as a modular AI assistant backend where users can:
 
 ## 📁 Project Structure
 
-app/
-├── main.py
-├── db.py
+```
+ai-project-assistant/
 │
-├── assets/                # Stored/generated images
-│
-├── routes/
-│   ├── projects.py
-│   ├── chat.py
-│   ├── images.py
-│   ├── agent.py
-│
-├── services/
-│   ├── claude.py
-│   ├── gemini.py
-│   ├── memory.py
-│   ├── image.py
-│   ├── agent.py
+├── app/
+│   ├── main.py
+│   ├── db.py
+│   │
+│   ├── assets/                # Stored/generated images
+│   │
+│   ├── routes/
+│   │   ├── projects.py
+│   │   ├── chat.py
+│   │   ├── images.py
+│   │   ├── agent.py
+│   │
+│   ├── services/
+│   │   ├── claude.py
+│   │   ├── gemini.py
+│   │   ├── memory.py
+│   │   ├── image.py
+│   │   ├── agent.py
+```
+Modular architecture separating API routes and business logic for scalability and maintainability.
 
 ---
 
